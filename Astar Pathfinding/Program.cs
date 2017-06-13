@@ -24,8 +24,7 @@ namespace Astar_Pathfinding
             for (int row = 0; row < Data.Count; row++)
             {
                 for (int col = 0; col < Data[row].Count; col++)
-                {
-                    //Console.Write(Data[row][col] + " ");
+                {                    
                     if(Data[row][col] == 0) { Console.Write(" "); }
                     if (Data[row][col] == 1) { Console.Write("#"); }
                     if (Data[row][col] == 2) { Console.Write("."); }
@@ -36,16 +35,7 @@ namespace Astar_Pathfinding
 
         static void Main(string[] args)
         {
-            Algorithm Astar = new Algorithm();
-
-            List<List<int>> Maze = new List<List<int>>
-            {
-                new List<int> {0,0,0,0,0},
-                new List<int> {0,0,0,0,0},
-                new List<int> {0,0,0,1,0},
-                new List<int> {0,1,0,1,0},
-                new List<int> {0,0,0,0,0}
-            };
+            Algorithm Astar = new Algorithm();          
 
             MazeGenerator Mazegen = new MazeGenerator(20, 20);
             var maze = Mazegen.GenerateMaze();
