@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astar Pathfinding", "Astar Pathfinding\Astar Pathfinding.csproj", "{182E5C18-6D6E-435B-921E-0CB62C6F6653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{B2FED49B-CBE4-4F67-90FD-B501CCDB12E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{182E5C18-6D6E-435B-921E-0CB62C6F6653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{182E5C18-6D6E-435B-921E-0CB62C6F6653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{182E5C18-6D6E-435B-921E-0CB62C6F6653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{182E5C18-6D6E-435B-921E-0CB62C6F6653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2FED49B-CBE4-4F67-90FD-B501CCDB12E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2FED49B-CBE4-4F67-90FD-B501CCDB12E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2FED49B-CBE4-4F67-90FD-B501CCDB12E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2FED49B-CBE4-4F67-90FD-B501CCDB12E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
